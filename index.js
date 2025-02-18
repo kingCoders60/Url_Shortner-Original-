@@ -7,7 +7,7 @@ const staticRoute = require('./routes/staticrouter.js')
 const app = express();
 const PORT = 8007;
 
-connectToMongoDB('mongodb+srv://allien10101010:76RHXohMWeYn1UeB@cluster0.edelp.mongodb.net/shivamNewDatabase')
+connectToMongoDB('')
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.error("MongoDB connection error:", err));
 
